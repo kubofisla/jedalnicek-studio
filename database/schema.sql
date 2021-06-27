@@ -22,8 +22,9 @@ CREATE TABLE meal (
 CREATE TABLE mealIngredientMapping (
     kMeal INTEGER NOT NULL,
     kIngredient INTEGER NOT NULL,
-    nWeight INTEGER NOT NULL,
-    sPortion TEXT,
+    nQuantity INTEGER NOT NULL,
+    sUnit TEXT,
+    sNote TEXT,
     FOREIGN KEY(kMeal) REFERENCES meal(nId),
     FOREIGN KEY(kIngredient) REFERENCES ingredient(nId)
 );

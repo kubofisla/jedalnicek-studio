@@ -2,8 +2,8 @@
 
 ## Run Application
 
-### DEBUG
-To init Db before application start run `flask init-db`
+### In DEVELOPMENT mode
+To init database before application starts run `flask init-db`
 
 Setup eniroment:
 Windows PowerShell

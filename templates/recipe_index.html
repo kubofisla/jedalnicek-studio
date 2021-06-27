@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Recipes{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    {% for recipe in recipes %}
+        <div class="recipe">
+            <h1>{{ recipe['meal'] }}</h1>
+            <div class="ingredients">
+                {% for ingredient in recipe['ingredients'] %}
+                    <li>{{ ingredient['ingredient'] }} {{ ingredient['quantity'] }}{{ ingredient['unit'] }}</li>
+                {% endfor %}
+            </div>
+            <div>
+                {{ recipe['description'] }}
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

@@ -2,6 +2,11 @@ import os
 
 from flask import Flask
 
+#PAGES imports
+from flask import (
+    Blueprint, flash, g, redirect, render_template, request, session, url_for
+)
+
 def create_app(test_config=None):
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True)
@@ -25,6 +30,9 @@ def create_app(test_config=None):
 
     from database import db
     db.init_app(app)
+
+    import recipes
+    app.register_blueprint(recipes.bp)
 
     @app.route("/hello")
     def helloWorld():
