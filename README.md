@@ -5,7 +5,8 @@
 ### DEBUG
 To init Db before application start run `flask init-db`
 
-Setup eniroment
+Setup eniroment:
+Windows PowerShell
 ```
 $env:FLASK_APP = "main"
 $env:FLASK_ENV = "development"
