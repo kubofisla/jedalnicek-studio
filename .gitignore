@@ -1,4 +1,4 @@
 # exclude python virtual environment setup and instance files
 __pycache__/
-venv/
-instance/
+backend/venv/
+backend/instance/

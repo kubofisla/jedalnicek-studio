@@ -1,13 +1,10 @@
-import functools
-
 from flask import (
-    Blueprint, render_template
+    Blueprint, jsonify
 )
 from database.db import get_db
 
 bp = Blueprint('recipes', __name__)
-
-@bp.route('/')
+@bp.route('/recipes')
 def recipe_index():
     db = get_db()
     recipe_rows = db.execute(
@@ -19,10 +16,11 @@ def recipe_index():
     recipes = {}
     for row in recipe_rows:
         id = row['id']
-        
+
         if id not in recipes:
             recipes[id] = {
-                'meal' : row['meal'],
+                'id' : id,
+                'name' : row['meal'],
                 'description' : row['description'],
                 'ingredients' : []
             }
@@ -33,4 +31,8 @@ def recipe_index():
             'unit' : row["unit"],
         })
 
-    return render_template('recipe_index.html', recipes=recipes.values())
+    output = list(recipes.values())
+    response = jsonify(output)
+    # Enable Access-Control-Allow-Origin
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response

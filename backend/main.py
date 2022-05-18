@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-
+from database import db
 #PAGES imports
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
@@ -28,7 +28,6 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    from database import db
     db.init_app(app)
 
     import recipes
@@ -37,5 +36,10 @@ def create_app(test_config=None):
     @app.route("/hello")
     def helloWorld():
         return "<h1>HELLO WORLD</h1>"
+
+    @app.route('/plan', methods=['GET', 'POST'])
+    def plan():
+        database = db.get_db()
+        return render_template('plan.html')
 
     return app

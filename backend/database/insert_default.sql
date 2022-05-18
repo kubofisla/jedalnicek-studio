@@ -3,6 +3,10 @@
 INSERT INTO meal (sName, sDescription)
 VALUES("Poradnej knedlik s poradnym masem", "Toto je navod na pripravu. Naloz knedlik, naloz maso");
 
+INSERT INTO meal (sName, sDescription)
+VALUES("Moravsky vrabec", "Vrabsa chytitit, odperit, nasolit, upiect");
+
+
 INSERT INTO ingredient (sName, nEnergy)
 VALUES("Ingrediencia", "512");
 

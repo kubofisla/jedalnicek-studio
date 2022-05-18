@@ -1,0 +1,32 @@
+import "./recipes.css"
+import { useEffect, useState } from 'react'
+
+function Recipes() {
+    const [recipes, setRecipes] = useState()
+
+    useEffect(() => {
+        fetch("http://localhost:5000/recipes").then(
+            response => response.json()
+        ).then(
+            recipes => {
+                setRecipes(recipes)
+            }
+        ).catch(error => console.log(error))
+    }, [])
+
+
+    return (
+        <div>
+            {recipes?.map((recipe) => {
+                return (
+                    <div className="recipe" key={recipe.id}>
+                        <h3>{recipe.name}</h3>
+                        <div className="description">{recipe.description}</div>
+                    </div>
+                )
+            })}
+        </div>
+    )
+}
+
+export default Recipes
