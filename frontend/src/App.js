@@ -1,17 +1,19 @@
 import './App.css';
+import React, { Suspense, lazy } from 'react';
 import Recipes from './recipes';
+import Plan from './plan';
 import Navbar from './navbar';
-
-const Data = ["Ranajky", "Desiaita", "Polievka", "Obed", "Olovrant", "Vecera"];
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
     return (
-        <div className="App">
+        <Router>
             <Navbar />
-            <div className="content">
-                <Recipes />
-            </div>
-        </div>
+            <Routes>
+                <Route path="/recipes" element={<Recipes />} />
+                <Route path="/plan" element={<Plan />} />
+            </Routes>
+        </Router>
     );
 }
 

@@ -1,4 +1,7 @@
 # exclude python virtual environment setup and instance files
 __pycache__/
-backend/venv/
+venv/
+node_modules/
 backend/instance/
+public/
+/sqlite_main.db

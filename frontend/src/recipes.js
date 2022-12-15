@@ -17,10 +17,14 @@ function Recipes() {
 
     return (
         <div>
+            <h1>RECIPES</h1>
             {recipes?.map((recipe) => {
                 return (
                     <div className="recipe" key={recipe.id}>
                         <h3>{recipe.name}</h3>
+                        {recipe.ingredients?.map((ingredient) => {
+                            return <div className="ingredient">{ingredient.quantity} {ingredient.unit} - {ingredient.ingredient}</div>
+                        })}
                         <div className="description">{recipe.description}</div>
                     </div>
                 )

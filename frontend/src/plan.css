@@ -1,0 +1,23 @@
+.block {
+    display: flex;
+    margin: 0.5em 1em;
+}
+
+.block .mineBlock {
+    flex: 50%;
+    margin: 0.3em 0;
+}
+
+.block .toolsBlock {
+    flex: 30%;
+    margin: 0.3em 0;
+}
+
+.column {
+    width: 7em;
+}
+
+.main {
+    width: 40em;
+    margin: 0.2em 0;
+}

@@ -1,11 +1,7 @@
 import os
-
-from flask import Flask
-from database import db
-#PAGES imports
-from flask import (
-    Blueprint, flash, g, redirect, render_template, request, session, url_for
-)
+from flask import Flask, render_template
+from database import db_util
+from flask_cors import CORS
 
 def create_app(test_config=None):
     # create and configure the app
@@ -14,6 +10,7 @@ def create_app(test_config=None):
         SECRET_KEY='dev',
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
+    CORS(app)
 
     if test_config is None:
         # load the instance config, if it exists, when not testing
@@ -28,10 +25,16 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    db.init_app(app)
+    db_util.init_app(app)
 
     import recipes
     app.register_blueprint(recipes.bp)
+
+    import plan
+    app.register_blueprint(plan.bp)
+
+    import shoppingList
+    app.register_blueprint(shoppingList.bp)
 
     @app.route("/hello")
     def helloWorld():
