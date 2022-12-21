@@ -33,6 +33,9 @@ def create_app(test_config=None):
     import plan
     app.register_blueprint(plan.bp)
 
+    import meals
+    app.register_blueprint(meals.bp)
+
     import shoppingList
     app.register_blueprint(shoppingList.bp)
 

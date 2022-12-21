@@ -10,6 +10,7 @@ function Plan() {
 
     const [meals, setMeals] = useState()
     const [loaded, setLoad] = useState()
+    const [groups, setGroups] = useState()
     const [actualMeals, setActualMeals] = useState(new Map(loadActualMealsFromSession()))
 
     function loadActualMealsFromSession() {
@@ -28,6 +29,16 @@ function Plan() {
 
     useEffect(() => {
         fetch("/plan").then(
+            response => response.json()
+        ).then(
+            response => {
+                const fields = response
+                console.log(fields)
+                setGroups(fields)
+            }
+        ).catch(error => console.log(error))
+
+        fetch("/meals").then(
             response => response.json()
         ).then(
             response => {
@@ -64,15 +75,15 @@ function Plan() {
     return (
         <div className='block'>
             <div className='mainBlock'>
-                {periodValues.map(period =>
+                {groups.map(group =>
                     <div className='period'>
-                        <h3 className="column">{period}</h3>
+                        <h3 className="column">{group.name}</h3>
                         <div className="main">
-                        {localValues.map(local => {
-                            const id = period + "." + local
+                        {group.inputs.map(select => {
+                            const id = group.name + "." + select.name
                             return(
                                 <div>
-                                    {local}
+                                    {select.name}
                                     <MealPicker
                                         id={id}
                                         recipes={meals}
