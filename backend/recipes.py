@@ -17,20 +17,20 @@ def recipe_index():
 
     recipes = {}
     for row in recipe_rows:
-        id = row['id']
+        id = row[0]
 
         if id not in recipes:
             recipes[id] = {
                 'id' : id,
-                'name' : row['meal'],
-                'description' : row['description'],
+                'name' : row[1],
+                'description' : row[2],
                 'ingredients' : []
             }
 
         recipes[id]['ingredients'].append({
-            'ingredient' : row["ingredient"],
-            'quantity' : row["quantity"],
-            'unit' : row["unit"],
+            'ingredient' : row[3],
+            'quantity' : row[4],
+            'unit' : row[5],
         })
 
     print(recipes)

@@ -15,13 +15,13 @@ def plan_index():
 
     recipes = {}
     for row in recipe_rows:
-        id = row['id']
+        id = row[0]
 
         if id not in recipes:
             recipes[id] = {
                 'id' : id,
-                'name' : row['meal'],
-                'type' : row['type']
+                'name' : row[1],
+                'type' : row[2]
             }
 
     # print(recipes)
