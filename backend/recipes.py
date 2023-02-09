@@ -2,16 +2,18 @@ from flask import (
     Blueprint, jsonify
 )
 from database.db_util import get_db
+from sqlalchemy import text
 
 bp = Blueprint('recipes', __name__)
 @bp.route('/recipes')
 def recipe_index():
     db = get_db()
-    recipe_rows = db.execute(
-        'SELECT meal.nId AS id, meal.sName AS meal, meal.sDescription AS description, ingredient.sName AS ingredient, map.nQuantity AS quantity, map.sUnit AS unit FROM meal '
-        'LEFT JOIN mealIngredientMap AS map ON map.kMeal = meal.nId '
-        'LEFT JOIN ingredient ON map.kIngredient = ingredient.nId'
-    ).fetchall()
+    with db.connect() as conn:
+        recipe_rows = conn.execute(
+            text('SELECT meal.nId AS id, meal.sName AS meal, meal.sDescription AS description, ingredient.sName AS ingredient, map.nQuantity AS quantity, map.sUnit AS unit FROM meal '
+            'LEFT JOIN mealIngredientMap AS map ON map.kMeal = meal.nId '
+            'LEFT JOIN ingredient ON map.kIngredient = ingredient.nId')
+        ).fetchall()
 
     recipes = {}
     for row in recipe_rows:

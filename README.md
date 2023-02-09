@@ -9,7 +9,7 @@ cd backend
 Linux:
 ```
 python3 -m venv venv
-./venv/bin/activate
+. venv/bin/activate
 ```
 Windows:
 ```
@@ -36,9 +36,9 @@ Windows PowerShell
 ```
 cd .\backend\
 .\venv\Scripts\activate
-flask --app main --debug run
+flask --app main --debug run --host=0.0.0.0
 ```
-To init database before application starts run `flask init-db`
+To init database before application starts run `flask --app main init-db`
 
 Frontend:
 To start development app:
