@@ -39,13 +39,4 @@ def create_app(test_config=None):
     import shoppingList
     app.register_blueprint(shoppingList.bp)
 
-    @app.route("/hello")
-    def helloWorld():
-        return "<h1>HELLO WORLD</h1>"
-
-    @app.route('/plan', methods=['GET', 'POST'])
-    def plan():
-        database = db.get_db()
-        return render_template('plan.html')
-
     return app

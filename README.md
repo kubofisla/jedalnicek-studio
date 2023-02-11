@@ -1,6 +1,15 @@
 # meal-companion
 
 ## Docker deployment
+Create ./frontend/.env.local file and provide API URL in REACT_APP_API_URL env variable. E.g:
+```
+vim ./frontend/.env.local
+```
+Put this content into it and replace \<API_SERVER_URL\> with url of backend server:
+```
+#API server proxy url
+REACT_APP_API_URL=<API_SERVER_URL>
+```
 
 To deploy application (currently just in DEVELOPMENT mode) run following command:
 ```
