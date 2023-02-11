@@ -1,5 +1,12 @@
 # meal-companion
 
+## Docker deployment
+
+To deploy application (currently just in DEVELOPMENT mode) run following command:
+```
+docker compose up
+```
+
 ## From scratach
 Install python and pip: https://packaging.python.org/en/latest/tutorials/installing-packages/
 
@@ -47,3 +54,4 @@ cd .\frontend\
 npm start
 ```
 To run tests: `npm test`
+

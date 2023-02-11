@@ -5,7 +5,7 @@ from database.db_util import get_db
 from sqlalchemy import text
 
 bp = Blueprint('meals', __name__)
-@bp.route('/meals')
+@bp.route('/api/meals')
 def plan_index():
     db = get_db()
     with db.connect() as conn:

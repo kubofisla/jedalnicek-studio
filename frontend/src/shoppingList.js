@@ -1,7 +1,5 @@
 import React from 'react'
 
-const HOST = 'http://localhost:5000'
-
 class ShoppingList extends React.Component {
     constructor(props) {
         super(props);
@@ -28,7 +26,7 @@ class ShoppingList extends React.Component {
         }
         console.log(`request body: ${JSON.stringify([...this.props.mealsMap.values()])}`)
 
-        fetch(HOST + "/shoppingList", requestOptions)
+        fetch("/api/shoppingList", requestOptions)
             .then(response => response.json())
             .then(data => {
                 console.log(data)

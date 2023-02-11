@@ -13,7 +13,7 @@ def getOrDefault(obj, default):
         return obj
 
 bp = Blueprint('plan', __name__)
-@bp.route('/plan')
+@bp.route('/api/plan')
 def plan_index():
     db = get_db()
     # recipe_rows = db.execute(

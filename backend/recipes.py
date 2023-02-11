@@ -5,7 +5,7 @@ from database.db_util import get_db
 from sqlalchemy import text
 
 bp = Blueprint('recipes', __name__)
-@bp.route('/recipes')
+@bp.route('/api/recipes')
 def recipe_index():
     db = get_db()
     with db.connect() as conn:

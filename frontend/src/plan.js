@@ -28,7 +28,7 @@ function Plan() {
     }
 
     useEffect(() => {
-        fetch("/plan").then(
+        fetch("/api/plan").then(
             response => response.json()
         ).then(
             response => {
@@ -38,7 +38,7 @@ function Plan() {
             }
         ).catch(error => console.log(error))
 
-        fetch("/meals").then(
+        fetch("/api/meals").then(
             response => response.json()
         ).then(
             response => {
@@ -75,7 +75,7 @@ function Plan() {
     return (
         <div className='block'>
             <div className='mainBlock'>
-                {groups.map(group =>
+                {groups?.map(group =>
                     <div className='period'>
                         <h3 className="column">{group.name}</h3>
                         <div className="main">

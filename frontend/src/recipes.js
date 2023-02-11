@@ -5,7 +5,7 @@ function Recipes() {
     const [recipes, setRecipes] = useState()
 
     useEffect(() => {
-        fetch("http://localhost:5000/recipes").then(
+        fetch("/api/recipes").then(
             response => response.json()
         ).then(
             recipes => {
