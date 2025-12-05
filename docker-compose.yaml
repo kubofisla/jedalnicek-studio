@@ -3,8 +3,7 @@ services:
     build: ./backend
     ports:
       - "5000:5000"
-  frontent:
+  frontend:
     build: ./frontend
-    # env_file: ./frontend/config.env
     ports:
       - "3000:3000"

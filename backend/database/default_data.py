@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from database.schema import Meal, Ingredient, MealIngredientMap, Plan, PlanGroup
+from database.schema import Meal, Ingredient, MealIngredientMap, Plan, PlanGroup, Tag, MealTagMap
 
 def insertDefaultData(engine):
     with Session(engine) as session:

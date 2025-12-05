@@ -29,7 +29,8 @@ class Meal(Base):
     sType = Column(String)
     sDescription = Column(String)
     ingredients = relationship(M_I_MAP_TABLE_NAME)
-
+    tags = relationship(M_T_MAP_TABLE_NAME)
+    
     def __repr__(self):
         return f"Meal(id={self.nId}, name={self.sName}, description={self.sDescription})"
 
@@ -77,3 +78,21 @@ class PlanGroup(Base):
     # plans = relationship(PLAN_TABLE_NAME)
     # group = relationship(PLAN_GROUP_TABLE_NAME)
     # nOrder = Column(Integer, nullable=False, unique=True)
+
+TAG_TABLE_NAME = "Tag"
+M_T_MAP_TABLE_NAME = "MealTagMap"
+
+class MealTagMap(Base):
+    __tablename__ = M_T_MAP_TABLE_NAME
+
+    nKey = Column(Integer, primary_key=True)
+    kMeal = Column(ForeignKey(f"{MEAL_TABLE_NAME}.{NID}"))
+    kTag = Column(ForeignKey(f"{TAG_TABLE_NAME}.{NID}"))
+    tag = relationship(TAG_TABLE_NAME)
+
+class Tag(Base):
+    __tablename__ = TAG_TABLE_NAME
+
+    nId = Column(Integer, primary_key=True)
+    sName = Column(String, nullable=False, unique=True)
+    sColor = Column(String)
