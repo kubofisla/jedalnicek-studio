@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from database.schema import Meal, Ingredient, MealIngredientMap, Plan, PlanGroup, Tag, MealTagMap
+from database.schema import Meal, Ingredient, MealIngredientMap, Plan, PlanGroup, Tag, MealTagMap, User
 
 def insertDefaultData(engine):
     with Session(engine) as session:
@@ -552,13 +552,19 @@ def insertDefaultData(engine):
 
         meal = session.query(Meal).filter(Meal.sName == "Rýžové placičky s jablkem a banánem").first()
         if meal:
-            meal.tags.append(MealTagMap(tag=tags["Raňajky"]))
-            meal.tags.append(MealTagMap(tag=tags["Vegetarian"]))
-            meal.tags.append(MealTagMap(tag=tags["Bezlepkové"]))
+            meal.tags.append(MealTagMap(tag=tags["breakfast"]))
+            meal.tags.append(MealTagMap(tag=tags["vegetarian"]))
+            meal.tags.append(MealTagMap(tag=tags["gluten_free"]))
             
         meal = session.query(Meal).filter(Meal.sName == "Osvěžující borůvkový bowl").first()
         if meal:
-            meal.tags.append(MealTagMap(tag=tags["Raňajky"]))
-            meal.tags.append(MealTagMap(tag=tags["Vegetarian"]))
+            meal.tags.append(MealTagMap(tag=tags["breakfast"]))
+            meal.tags.append(MealTagMap(tag=tags["vegetarian"]))
             
         session.commit()
+
+        # Add default User
+        if not session.query(User).filter(User.sUsername == "default").first():
+            default_user = User(sUsername="default")
+            session.add(default_user)
+            session.commit()

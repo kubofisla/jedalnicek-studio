@@ -10,6 +10,10 @@ PLAN_TABLE_NAME = "Plan"
 PLAN_GROUP_TABLE_NAME = "PlanGroup"
 TAG_TABLE_NAME = "Tag"
 M_T_MAP_TABLE_NAME = "MealTagMap"
+USER_TABLE_NAME = "User"
+USER_SETTINGS_TABLE_NAME = "UserSettings"
+USER_INVENTORY_TABLE_NAME = "UserInventory"
+USER_PLAN_TABLE_NAME = "UserPlan"
 
 Base = declarative_base()
 
@@ -97,3 +101,37 @@ class Tag(Base):
     nId = Column(Integer, primary_key=True)
     sName = Column(String, nullable=False, unique=True)
     sColor = Column(String)
+
+class User(Base):
+    __tablename__ = USER_TABLE_NAME
+
+    nId = Column(Integer, primary_key=True)
+    sUsername = Column(String, unique=True, nullable=False)
+
+class UserSettings(Base):
+    __tablename__ = USER_SETTINGS_TABLE_NAME
+
+    nId = Column(Integer, primary_key=True)
+    kUser = Column(ForeignKey(f"{USER_TABLE_NAME}.{NID}"))
+    sStartDate = Column(String)
+    nDaysDuration = Column(Integer)
+    sLanguage = Column(String)
+
+class UserInventory(Base):
+    __tablename__ = USER_INVENTORY_TABLE_NAME
+
+    nId = Column(Integer, primary_key=True)
+    kUser = Column(ForeignKey(f"{USER_TABLE_NAME}.{NID}"))
+    sUid = Column(String)
+    kRecipe = Column(ForeignKey(f"{MEAL_TABLE_NAME}.{NID}"))
+    nPortions = Column(Integer)
+
+class UserPlan(Base):
+    __tablename__ = USER_PLAN_TABLE_NAME
+
+    nId = Column(Integer, primary_key=True)
+    kUser = Column(ForeignKey(f"{USER_TABLE_NAME}.{NID}"))
+    sDate = Column(String)
+    sUid = Column(String)
+    kRecipe = Column(ForeignKey(f"{MEAL_TABLE_NAME}.{NID}"))
+    nPortions = Column(Integer)

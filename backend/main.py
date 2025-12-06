@@ -39,4 +39,7 @@ def create_app(test_config=None):
     import shoppingList
     app.register_blueprint(shoppingList.bp)
 
+    import user_data
+    app.register_blueprint(user_data.bp)
+
     return app
