@@ -1,6 +1,6 @@
 -- TESTOVACIE DATA
 
-INSERT INTO meal (sName, sDescription)
+INSERT INTO meal (sName, sInstructions)
 VALUES
     ("Rýžové placičky s jablkem a banánem", "Uvaříme rýži v osolené vodě. 1/2 (+-) jablka nastrouháme, 1/2 banánu rozmačkáme a smícháme společně s uvařenou rýží a 1 ks vejce. Získáme směs, ze které vytvarujeme na pečící papír placičky a posypeme každou rozdrcenými mandlemi. Pečeme na 200 stupňů 20 minut."),
     ("Osvěžující borůvkový bowl", "Borůvky MRAŽENÉ a kefírové mléko rozmixujeme v mixéru. Dáme do misky a posypeme mandlemi, vlašskými ořechy, semínky a 1/2 banánu."),

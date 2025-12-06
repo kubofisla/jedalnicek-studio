@@ -1,0 +1,3209 @@
+[
+  {
+    "defaultPortions": 2,
+    "id": 1,
+    "ingredients": [
+      {
+        "ingredient": "Rýže jasmínová",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jablko",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Banány",
+        "quantity": 65,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mandle",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvaříme rýži v osolené vodě. 1/2 (+-) jablka nastrouháme, 1/2 banánu rozmačkáme a smícháme společně s uvařenou rýží a 1 ks vejce. Získáme směs, ze které vytvarujeme na pečící papír placičky a posypeme každou rozdrcenými mandlemi. Pečeme na 200 stupňů 20 minut.",
+    "name": "Rýžové placičky s jablkem a banánem",
+    "nutrition": {
+      "carbohydrate": 63.06,
+      "energy": 450.3315,
+      "fat": 16.863,
+      "fiber": 7.222,
+      "protein": 14.8585,
+      "sugar": 21.568
+    },
+    "tags": [
+      "Breakfast",
+      "Vegetarian",
+      "Gluten-Free"
+    ]
+  },
+  {
+    "defaultPortions": 2,
+    "id": 2,
+    "ingredients": [
+      {
+        "ingredient": "Banány",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mandle",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Borůvky",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kefírové mléko bílé 1,5% Kunín",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Borůvky MRAŽENÉ a kefírové mléko rozmixujeme v mixéru. Dáme do misky a posypeme mandlemi, vlašskými ořechy, semínky a 1/2 banánu.",
+    "name": "Osvěžující borůvkový bowl",
+    "nutrition": {
+      "carbohydrate": 40.748,
+      "energy": 449.513,
+      "fat": 25.400000000000002,
+      "fiber": 10.347999999999999,
+      "protein": 17.552,
+      "sugar": 24.802000000000003
+    },
+    "tags": [
+      "Breakfast",
+      "Vegetarian"
+    ]
+  },
+  {
+    "defaultPortions": 2,
+    "id": 3,
+    "ingredients": [
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jihočeský tvaroh polotučný Madeta",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Máslo 80 % Président",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Zakysaná smetana 15 % Kunín",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cibule",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika sladká",
+        "quantity": 3,
+        "unit": "g"
+      }
+    ],
+    "instructions": "1 širší plátek kváskového chleba potřeme budapešťskou pomazánkou -> 1/2 tvarohu (zbytek Kubko), 1 lžíce másla, 1/4 zakysané smetany, nakrájená cibulka dle potřeby, kapie (program je nenabízí, proto červená paprika). Červená mleté paprika, sůl, pepř přidáme dle svých chutí.",
+    "name": "Kváskový chléb s budapešťskou pomazánkou",
+    "nutrition": {
+      "carbohydrate": 45.3189,
+      "energy": 467.6699,
+      "fat": 22.680899999999998,
+      "fiber": 6.8999999999999995,
+      "protein": 21.0999,
+      "sugar": 8.780999999999999
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 4,
+    "ingredients": [
+      {
+        "ingredient": "Banány",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kefírové mléko bílé 1,5% Kunín",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jihočeský tvaroh polotučný Madeta",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chia semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mražené borůvky",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Vše rozmixujeme. 125g tvaroh = 1/2 60g banán = 1/2",
+    "name": "Smoothie",
+    "nutrition": {
+      "carbohydrate": 36.048,
+      "energy": 450.468,
+      "fat": 23.900000000000002,
+      "fiber": 5.948,
+      "protein": 23.052000000000003,
+      "sugar": 26.602
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 5,
+    "ingredients": [
+      {
+        "ingredient": "Banány",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chia semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mandlové mléko DM Bio",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "BIO kakao hořké",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hořká čokoláda Lindt 85%",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Mléko (může být živočišné), kakao, chia a banán (1/2) společně umixujeme do hladka. Směs přemístíme do misky, posypeme nastrouhanou čokoládou (1 ks), ořechy a poklademe plátky banánu (1/2). Ihned podáváme.",
+    "name": "Banánové smoothie bowl",
+    "nutrition": {
+      "carbohydrate": 40.296,
+      "energy": 473.60100000000006,
+      "fat": 28.250000000000004,
+      "fiber": 8.495999999999999,
+      "protein": 13.904,
+      "sugar": 25.054000000000002
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 6,
+    "ingredients": [
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hořká čokoláda Lindt 85%",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jáhly",
+        "quantity": 35,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mandarinky ve sladkém nálevu Giana",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Jáhly uvaříme a smícháme je 1 ks hořké čokolády, aby se rozpustila. Ozdobíme mandarinkami z plechovky, semínky a ořechy.",
+    "name": "Jáhly s mandarinkami",
+    "nutrition": {
+      "carbohydrate": 49.499,
+      "energy": 471.28650000000005,
+      "fat": 25.35,
+      "fiber": 4.25,
+      "protein": 11.249,
+      "sugar": 15.45
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 7,
+    "ingredients": [
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chia semínka",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ovesné vločky",
+        "quantity": 35,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mléko plnotučné 3,5%",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Řecký jogurt Milko 5%",
+        "quantity": 140,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Maliny",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "V kastrůlku ohřejeme mléko, přidáme do něj 1 ČL chia semínek, necháme si zároveň převařit vodu v konvici. Až bude mléko teplé, přidáte ovesné vločky, zamícháme a přidáme vodu dle potřeby (přidáváme po troškách, ať ji není příliš, kaše pak nebude mít dobrou chuť), mícháme do zhoustnutí. V misce poté kaši smícháme s celým jogurtem 5% tuku. Ozdobíme ovocem a ořechy.",
+    "name": "Ovesná kaše s jogurtem",
+    "nutrition": {
+      "carbohydrate": 43.0,
+      "energy": 484.996,
+      "fat": 25.25,
+      "fiber": 13.6,
+      "protein": 23.099999999999998,
+      "sugar": 9.45
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 8,
+    "ingredients": [
+      {
+        "ingredient": "Jablko",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hummus original Yami",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Dušená šunka vepřová 96% Dulano",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Eidam 30 % Blaník",
+        "quantity": 17,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mrkev",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "1 plátek chleba potřeme hummusem, obložíme 2 ks vysokoprocentní šunka a 1 plátek sýru. K tomu ovoce a 1 ks mrkev.",
+    "name": "Kváskový chléb s hummusem, šunkou a sýrem",
+    "nutrition": {
+      "carbohydrate": 69.10900000000001,
+      "energy": 452.70050000000003,
+      "fat": 10.600999999999999,
+      "fiber": 13.504999999999999,
+      "protein": 20.875,
+      "sugar": 23.856
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 9,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Moravské okurky Efko",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hermelín Král Sýrů",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Řecký jogurt 0% tuku Milko",
+        "quantity": 70,
+        "unit": "g"
+      }
+    ],
+    "instructions": "V první řadě si dáme vařit vajíčko. Mezitím si pokrájíme hermelín na malé kousky (zbytek Kubko), přidáme pokrájené kyselé okurky a dochutíme 1/2 jogurtem a špetkou soli, pepřem ... Na závěr přidáme pokrájené uvařené vajíčko, a všechno společně promícháme a dáme na chvíli vychladit do lednice. Pomazánkou potřeme kváskový chléb.",
+    "name": "Kváskový chléb s hermelínovou pomazánkou",
+    "nutrition": {
+      "carbohydrate": 43.3195,
+      "energy": 465.7685,
+      "fat": 21.2815,
+      "fiber": 4.8999999999999995,
+      "protein": 29.398,
+      "sugar": 5.981
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 10,
+    "ingredients": [
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mrkev",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Těstoviny Panzani",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sušená rajčata Franz Josef",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mozzarella light Galbani",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Polníček",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Okurky",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvaříme těstoviny (v hotovém +- 85 g), smícháme se sušenými rajčaty (vč. trocha oleje), 1/2 ks mozzarelly (druhá polovina Kubko), listovou zeleninu (nevážíme, odhadem), 1/2 okurka, 1 ks mrkev a semínka, které opražíme na suché pánvi pro lepší chuť. Na konec trošku zakápneme za studena lisovaným olejem. Salát ochutíme dle svých chutí.",
+    "name": "Těstovinový salát se sušenými rajčaty a mozzarellou",
+    "nutrition": {
+      "carbohydrate": 46.147999999999996,
+      "energy": 468.24899999999997,
+      "fat": 22.2,
+      "fiber": 7.701,
+      "protein": 21.7,
+      "sugar": 12.652999999999999
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 11,
+    "ingredients": [
+      {
+        "ingredient": "Mrkev",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Basmati rýže Vitana",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Losos obecný",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Avokádo",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukuřice Bonduelle",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sójová omáčka",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvaříme rýži (v hotovém stavu +-110g), přendáme do misky a naskládáme na ni čerstvého lososa, avokádo, 1/2 mrkev a kukuřici. Můžeme lehce pokapat sójovou omáčkou.",
+    "name": "Poke bowl",
+    "nutrition": {
+      "carbohydrate": 37.0,
+      "energy": 462.38899999999995,
+      "fat": 25.192999999999998,
+      "fiber": 7.899,
+      "protein": 20.801,
+      "sugar": 5.5
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 12,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mrkev",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hovězí maso mleté",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cuketa",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Hovězí mleté maso smícháme s 1 ks vejce, 1/2 červené papriky, nastrouhanou 1/2 ks mrkve, 1/2 malé nastrouhané cukety. Osolíme, opepříme, přidáme případně bylinky. Vznikne nám směs, ze které na pečící papír vytvarujeme placky. Pečeme na 200 stupňů, 30 minut. Ke konci pečení potřeme olivovým olejem.",
+    "name": "Karbanátky z hovězího masa a zeleniny",
+    "nutrition": {
+      "carbohydrate": 13.000499999999999,
+      "energy": 470.5605,
+      "fat": 30.368499999999997,
+      "fiber": 7.0,
+      "protein": 32.95,
+      "sugar": 9.0
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 13,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 110,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cibule",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cuketa",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Špaldová mouka celozrnná",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tuňák Rio Mare ve vlastní šťávě",
+        "quantity": 112,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej řepkový ARO",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Česnek",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Nejprve si oloupej cuketu a najemno nastrouhej. Posol a nech 10 minut odstát.Mezitím si nakrájej cibuli (nemusí být) na kostičky a česnek na plátky. Na řepkovém (můžeš kokosový) oleji restuj dozlatova. Cuketu důkladně vymačkej. Poté přidej vejce (2ks), orestovanou cibuli s česnekem, špaldovou mouku a tuňáka (můžeš i nemusíš dávat do těsta), kterého jsi předem zbavila šťávy. Směs osol, opepři a důkladně zamíchej. Orestuj na pánvi do zlatova.TIP: Placky je možné dát i do trouby. Stačí péct při 200 stupních z každé strany cca. 10 minut",
+    "name": "Cuketové placky s tuňákem",
+    "nutrition": {
+      "carbohydrate": 30.501,
+      "energy": 376.03499999999997,
+      "fat": 17.501,
+      "fiber": 4.8999999999999995,
+      "protein": 20.396,
+      "sugar": 4.6
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 14,
+    "ingredients": [
+      {
+        "ingredient": "Mrkev",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rýžové nudle",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tofu natural",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Med",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Citróny",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Rýžové nudle dáme vařit do osolené vody (dle návodu na obalu). Nakrájené tofu na kostičky lehce osmahneme na sucho na pánvičce na mírném ohni. V mističce si připravíme zálivku: med, citron, olej, sůl. Uvařené nudle chvíli orestujeme spolu s tofu, smícháme, přendáme na talíř/do misky, zalejeme zálivkou, smícháme a též smícháme s 1ks nastrouhanou mrkví.",
+    "name": "Tofu s rýžovými nudlemi",
+    "nutrition": {
+      "carbohydrate": 58.6,
+      "energy": 486.254,
+      "fat": 18.4,
+      "fiber": 7.9,
+      "protein": 22.6,
+      "sugar": 12.8
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 15,
+    "ingredients": [
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Avokádo",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cibule červená",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajčata Cherry",
+        "quantity": 125,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Avokádo rozmačkáme v misce, přidáme nakrájenou červenou cibuli, 1/2 balení cherry rajčátek. Zakápneme citronovou šťávou, osolíme, zamícháme. Podáváme jako pomazánku na 1 plátek žitný chléb.",
+    "name": "Kváskový chléb s quacamole",
+    "nutrition": {
+      "carbohydrate": 49.519000000000005,
+      "energy": 493.83299999999997,
+      "fat": 30.479999999999997,
+      "fiber": 13.200999999999999,
+      "protein": 10.199,
+      "sugar": 5.681
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 16,
+    "ingredients": [
+      {
+        "ingredient": "Hovězí maso mleté",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Makaróny, špagety",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Free Form boloňská omáčka Tesco",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Parmezán",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Mleté maso osmahneš na suché pánvi, až bude hotové přidáš boloňskou omáčku, necháš ohřát, přidáš uvařené špagety (150g +- v hotovém) a na talíři posypeš nastrouhaným sýrem.",
+    "name": "Boloňské špagety",
+    "nutrition": {
+      "carbohydrate": 48.0,
+      "energy": 476.73900000000003,
+      "fat": 18.358000000000004,
+      "fiber": 3.795,
+      "protein": 29.427,
+      "sugar": 7.995
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 17,
+    "ingredients": [
+      {
+        "ingredient": "Mozzarella light Galbani",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukuřice Bonduelle",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajčata Cherry",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tortilla wraps (CrustiCroc)",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Salát ledový",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "BIO Řecký jogurt bílý Milko 5 %",
+        "quantity": 70,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na talíři si rozprostřeme 1 ks tortilly (pozor, té menší!, jsou i velikosti o 120g), naskládáme na její jednu půlku na sebe ledový salát, nakrájená rajčátka, kukuřici, nakrájenou na plátky light mozzarellu a druhou polovinou tortilly směs zaděláme a dáme na kontaktní gril, do toustovače, na pánev či do kleští na gril a následně do trouby a na pár minutek (1-3) z obou stran dáme opéct. K tomu 1/2 kelímek řeckého jogurtu. Buď potřeme nebo do jogurtu namáčíme.",
+    "name": "Quesadilla s mozzarellou a zeleninou",
+    "nutrition": {
+      "carbohydrate": 40.79599999999999,
+      "energy": 497.686,
+      "fat": 21.501999999999995,
+      "fiber": 2.0799999999999996,
+      "protein": 34.503,
+      "sugar": 8.986
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 18,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hummus original Yami",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mrkev",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajčata Cherry",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Salát ledový",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tortilla Wraps celozrnná LIDL",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na 1ks menší tortilly (před si ji ohřejeme v mikrovlnce 20s) rozetřeme hummus. Na pánvičce potřené kokosovým olejem osmahneme 1ks vejce (míchané). To rozložíme též do tortily na její prostředek, dále přidáme ledový salát, rajčátka a nastrouhanou mrkev.",
+    "name": "Tortilla s hummusem a míchaný, vajíčkem",
+    "nutrition": {
+      "carbohydrate": 47.1005,
+      "energy": 484.9365,
+      "fat": 23.100499999999997,
+      "fiber": 4.88,
+      "protein": 17.698999999999998,
+      "sugar": 9.081000000000001
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 19,
+    "ingredients": [
+      {
+        "ingredient": "Tofu natural",
+        "quantity": 170,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Zakysaná smetana 14 % Pilos",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajče",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Pokrájené a očistěné brambory (lze zaměnit za batáty) zakápneme trochou olivovým olejem, přidáme sůl a bylinky (libovolně) a pečeme v troubě dozlatova. Podáváme s na pánvi opečeným tofu (na sucho) a dipem ze zakysky (libovolně přidáme česnek, sůl, pepř, bylinky). K tomu dále 1ks rajče.",
+    "name": "Opečené tofu s pečenými brambory, dip ze zakysané smetany",
+    "nutrition": {
+      "carbohydrate": 38.2,
+      "energy": 484.584,
+      "fat": 23.45,
+      "fiber": 3.5,
+      "protein": 29.5,
+      "sugar": 8.5
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 20,
+    "ingredients": [
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Čočka Lagris",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vejce na tvrdo",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Šmakoun Klasik",
+        "quantity": 110,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvaříme čočku, 2 ks vejce. Na lehce potřené pánvi olejem osmahneme 1 ks šmakouna, druhý ks Kubko.",
+    "name": "Čočka se šmakounem a vejcem",
+    "nutrition": {
+      "carbohydrate": 27.704,
+      "energy": 452.586,
+      "fat": 20.898000000000003,
+      "fiber": 4.205,
+      "protein": 37.2,
+      "sugar": 1.6
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 21,
+    "ingredients": [
+      {
+        "ingredient": "Olej olivový",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Losos obecný",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Batáty",
+        "quantity": 180,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Lososa potřeme na pečícím papíru olejem, ochutíme dle svých chutí (sůl, citron, bylinky...) a přihodíme k němu batáty (lze zaměnit s bramborami).",
+    "name": "Pečený losos s pečenými batáty",
+    "nutrition": {
+      "carbohydrate": 36.0,
+      "energy": 452.516,
+      "fat": 22.503999999999998,
+      "fiber": 5.4,
+      "protein": 27.6,
+      "sugar": 14.4
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 22,
+    "ingredients": [
+      {
+        "ingredient": "Sušená rajčata Franz Josef",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Avokádo",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Makaróny, špagety",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Parmezán",
+        "quantity": 30,
+        "unit": "g"
+      }
+    ],
+    "instructions": "umixujeme dohladka avokádo , ochutíme ho solí , pepřem nebo chilli a trošičkou citronové šťávy, ale opravdu jen pár kapek pro osvěžení chuti. V malé pánvičce si opečeme nakrájená rajčátka, jelikož jsou již v oleji a avokádo je také nabité tukem, opečeme je bez dalšího přidávání oleje nebo másla. Poté ztlumíme teplotu, vmícháme avokádo, nastrouhaný sýr a čerstvou bazalku. Vhodíme uvařené těstoviny a vše smícháme, můžeme trošku naředit vodou z těstovin. Podáváme ozdobené bazalkou.",
+    "name": "Avokádové špagety se sušenými rajčaty",
+    "nutrition": {
+      "carbohydrate": 33.4,
+      "energy": 468.191,
+      "fat": 30.149000000000004,
+      "fiber": 4.9,
+      "protein": 17.351,
+      "sugar": 1.6500000000000001
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 23,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ovesné vločky",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Česnek",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Uzená krkovice",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Brambory oloupeme, nastrouháme a smícháme s 1 ks vejce, ovesnými vločkami, nakrájenou kvalitní zauzenou šunkou/salámem na malé kostičky a stroužkem česneku. Směs ochutíme majoránkou a dle potřeby sůl + pepř. Ze směsi na pečící papír vytvarujeme kolečka. Pečeme na 200 stupňů 30 minut.",
+    "name": "Bramboráčky",
+    "nutrition": {
+      "carbohydrate": 43.7005,
+      "energy": 486.8415,
+      "fat": 25.2005,
+      "fiber": 4.0,
+      "protein": 18.498,
+      "sugar": 0.4
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 24,
+    "ingredients": [
+      {
+        "ingredient": "Kefírové mléko bílé 1,5% Kunín",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Zakysaná smetana 15 % Kunín",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Eidam 30 % Blaník",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Špaldová mouka celozrnná",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Česnek",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Smícháme mouku, kefír a 1 PL olivového oleje. Vytvarujeme na pečící papír menší placičky, pečeme 15 minut na 180 stupňů. Po upečení potřeme česnekem (ale nemusíš), zakysanou smetanou a posypeme nastrouhaným eidamem. Jsou to spíše takové akoze langose, placky se nafouknou, tak se nelekat a pochutnat si i tak. :)",
+    "name": "Langoše ze špaldové mouky a kefíru",
+    "nutrition": {
+      "carbohydrate": 61.85,
+      "energy": 493.055,
+      "fat": 19.299999999999997,
+      "fiber": 7.3,
+      "protein": 21.040000000000003,
+      "sugar": 5.39
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 25,
+    "ingredients": [
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Červená řepa",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jihočeská Niva 50%, Madeta",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "pečící papír, posypeme každé kolečko nastrouhanou nivou a na každé kolečko dáme vlašský ořech. Poté dáme do trouby zapéct na 180 stupňů a vyndáme až bude niva do zlatova (cca 30 minut).",
+    "name": "Zapečená řepa s nivou a vlašskými ořechy",
+    "nutrition": {
+      "carbohydrate": 32.38999999999999,
+      "energy": 446.44499999999994,
+      "fat": 30.55,
+      "fiber": 9.09,
+      "protein": 19.71,
+      "sugar": 21.150000000000002
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 26,
+    "ingredients": [
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vídeňské párky 80 % K-Cllassic",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hořčice dijonská",
+        "quantity": 30,
+        "unit": "g"
+      }
+    ],
+    "instructions": "2 nožičky kvalitních párků s 1 plátkem kváskového chleba s hořčicí (klidně kečup, záleží co máš ráda). K tomu zelenina.",
+    "name": "Párky s kváskovým chlebem",
+    "nutrition": {
+      "carbohydrate": 35.685,
+      "energy": 466.12399999999997,
+      "fat": 26.515,
+      "fiber": 9.5,
+      "protein": 21.401,
+      "sugar": 7.416
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 27,
+    "ingredients": [
+      {
+        "ingredient": "Cibule",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vepřová kýta",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Anglická slanina 85 % Česká chuť",
+        "quantity": 34,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na plech rozprostřeme alobal, vyskládáme na plech (alobal) nakrájené brambory na tenké plátky a vrstvíme maso též nakrájené na plátky, dále přidáme nakrájenou anglickou slaninu (2 ks) a papriku. Nakonec navrstvíme hodně cibule, posypeme grilovacím kořením, zakryjeme alobalem a pečeme na 200°C asi 60 minut.",
+    "name": "Vepřové ražniči s bramborami",
+    "nutrition": {
+      "carbohydrate": 24.5012,
+      "energy": 461.93960000000004,
+      "fat": 28.299599999999998,
+      "fiber": 5.0986,
+      "protein": 23.0992,
+      "sugar": 4.0986
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 28,
+    "ingredients": [
+      {
+        "ingredient": "Kefírové mléko bílé 1,5% Kunín",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Dušená šunka vepřová 96% Dulano",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mrkev",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Madeland light 30%, Madeta",
+        "quantity": 17,
+        "unit": "g"
+      }
+    ],
+    "instructions": "1 plátek kváskového chleba potřeme Lučinou, obložíme 2 ks plátky vysokoprocentní šunky, 1 plátkem sýru. K tomu 1ks mrkev a připíjíme 300 ml kefíru.",
+    "name": "Kváskový chléb se šunkou a sýrem",
+    "nutrition": {
+      "carbohydrate": 53.3196,
+      "energy": 457.16069999999996,
+      "fat": 14.881799999999998,
+      "fiber": 8.899999999999999,
+      "protein": 30.5,
+      "sugar": 16.9816
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 29,
+    "ingredients": [
+      {
+        "ingredient": "Polníček",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Quinoa",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brokolice",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Žampióny",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ghí - přepuštěné máslo",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Halloumi sýr",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Dýňová semínka",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Quinoa uvedena v syrovém stavu (v hotovém +- 90g). Brokolici můžeme dát na 5 minut vařit. Na ghí (nebo kokosovém oleji) osmahneme nakrájené žampiony, tak stejně osmahneme na plátky nakrájený Halloumi sýr (můžeme na jedné pánvi). Na talíři vše buď smícháme nebo vyskládáme vedle sebe, to už záleží na tobě. Na konec přidáme hrst polníčku či jiné listové zeleniny a posypeme semínky.",
+    "name": "Quinoa salát s halloumi sýrem",
+    "nutrition": {
+      "carbohydrate": 27.200000000000003,
+      "energy": 478.2,
+      "fat": 32.3995,
+      "fiber": 5.199999999999999,
+      "protein": 23.299999999999997,
+      "sugar": 2.1995
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 30,
+    "ingredients": [
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Basmati rýže Vitana",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukuřice Bonduelle",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tofu natural",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Pórek",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Tofu nakrájíme na kostičky a osmahneme na sucho na pánvi. Rýže je uvedena v syrovém stavu, v hotovém potom +- 110g. Talíř doplníme dále o kukuřici, nakrájený pórek (od oka) a semínka. Ochutíme dle svých chutí.",
+    "name": "Tofu s rýží a kukuřicí",
+    "nutrition": {
+      "carbohydrate": 39.400000000000006,
+      "energy": 467.98600000000005,
+      "fat": 20.599,
+      "fiber": 4.899,
+      "protein": 30.601,
+      "sugar": 6.8
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 31,
+    "ingredients": [
+      {
+        "ingredient": "Chia semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mandlové mléko DM Bio",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "BIO kakao hořké",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tvaroh polotučný průměr",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Granola - Křupavé müsli BIO CountryLife",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kiwi",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Do misky si dáme celý tvaroh, mléko (může být živočišné!), semínka, kakao a smícháme. Ozdobíme musli a ovocem.",
+    "name": "Polotučný tvaroh s kakaem a mandlovým mlékem",
+    "nutrition": {
+      "carbohydrate": 37.1,
+      "energy": 476.785,
+      "fat": 17.0,
+      "fiber": 5.300000000000001,
+      "protein": 30.3,
+      "sugar": 21.7
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 32,
+    "ingredients": [
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Těstoviny Panzani",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Polníček",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tuňák Rio Mare ve vlastní šťávě",
+        "quantity": 112,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajčata Cherry",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej lněný Franz Josef",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Těstoviny v hotovém +- 85g. Šťávu z tuňáka slejeme a vše smícháme dohromady - hrst polníčku či jiné listové zeleniny, rajčata, oříšky, semínka a těstoviny. Na konec zakápneme za studena lisovaným olejem. Ochutíme dle svých chutí.",
+    "name": "Těstovinový salát s tuňákem",
+    "nutrition": {
+      "carbohydrate": 30.5,
+      "energy": 345.541,
+      "fat": 20.94,
+      "fiber": 4.601,
+      "protein": 8.68,
+      "sugar": 5.041
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 33,
+    "ingredients": [
+      {
+        "ingredient": "Rajčata Cherry",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Parmezán",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Gnocchi bramborové noky Tesco",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Bazalkové pesto Panzani",
+        "quantity": 70,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvaříme gnochi, na pánvi mezitím ohřejeme bazalkové pesto a spolu s ním také mírně podusíme cherry rajčátka, uvařené gnochi k němu přidáme, zamícháme a na talíři posypeme parmazánem.",
+    "name": "Gnochi s bazalkovým pestem a parmazánem",
+    "nutrition": {
+      "carbohydrate": 38.999,
+      "energy": 465.695,
+      "fat": 27.801,
+      "fiber": 4.103,
+      "protein": 13.402,
+      "sugar": 4.102
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 34,
+    "ingredients": [
+      {
+        "ingredient": "Jablko",
+        "quantity": 75,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 110,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Špenát",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chléb žitný",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na kokosovém oleji osmahneme 2 míchaná vejce, přidáme na pánev hrst baby špenátu - vše mícháme dohromady. K tomu 1 plátek žitného chleba (může být váš domácí) potřený lučinou + přikusujeme 1/2 jablko.",
+    "name": "Míchaná vajíčka s baby špenátem a žitným chlebem",
+    "nutrition": {
+      "carbohydrate": 36.1035,
+      "energy": 482.23049999999995,
+      "fat": 27.8,
+      "fiber": 7.9025,
+      "protein": 20.397,
+      "sugar": 9.901499999999999
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 35,
+    "ingredients": [
+      {
+        "ingredient": "Česnek",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hovězí svíčková",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sádlo vepřové",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Fazolka",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na pánvi s rozehřátým sádlem na prudko opečeš maso a poté jej dáš spolu s bramborami do trouby. Brambory si včetně slupky jen omyješ, nakrájíš a dáš na sucho vedle masa. Na pánvi po mase poté osmahneš fazolky s česnekem - 1 stroužek.",
+    "name": "Hovězí steak s fazolkami a americkými bramborami",
+    "nutrition": {
+      "carbohydrate": 34.55,
+      "energy": 464.985,
+      "fat": 20.7,
+      "fiber": 5.2,
+      "protein": 34.0,
+      "sugar": 1.85
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 36,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 110,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Špenát",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kozí sýr Milbona",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rukola",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ředkvičky",
+        "quantity": 30,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Vajíčka (2) rozmixujeme spolu s cca hrstí špenátu, přidáme sůl a pepř. Smažíme na kokosovém oleji. Hotovou omeletu naplníme kozím sýrem, pokrájenými ředkvičkami a rukolou.",
+    "name": "Omeleta se špenátem a kozím sýrem",
+    "nutrition": {
+      "carbohydrate": 4.002,
+      "energy": 467.804,
+      "fat": 38.201,
+      "fiber": 1.701,
+      "protein": 27.997000000000003,
+      "sugar": 1.099
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 37,
+    "ingredients": [
+      {
+        "ingredient": "Kefírové mléko bílé 1,5% Kunín",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Dušená šunka vepřová 96% Dulano",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Madeland light 30%, Madeta",
+        "quantity": 17,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Toustový chléb cereální",
+        "quantity": 40,
+        "unit": "g"
+      }
+    ],
+    "instructions": "2 ks toustový chléb (=1 zapečený toust), potřeme lučinou, do toustu: 1 plátek sýr, 2 plátky vysokoprocentní šunky a zapečeme. K tomu 1 červená paprika (+-) a kefírové mléko.",
+    "name": "Tousty",
+    "nutrition": {
+      "carbohydrate": 33.8006,
+      "energy": 455.1607,
+      "fat": 20.600800000000003,
+      "fiber": 6.800000000000001,
+      "protein": 30.2,
+      "sugar": 15.6006
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 38,
+    "ingredients": [
+      {
+        "ingredient": "Avokádo",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Med",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vejce na tvrdo",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Čočka červená Lagris",
+        "quantity": 35,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Grapefruity",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Salát hlávkový",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vinný ocet",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Avokádo nakrájíme na kostičky, grapefruit zbavíme slupky vč. vnitřních hořkých blanek a zbylou vnitřní dužinu nakrájíme. 1 ks vejce vařené můžeme též nakrájet nebo rozkrojit na půl a na konec na salát položit. Hlávkový salát natrháme a vše vložíme do mísy s vychladlou čočkou (v hotovém 100 g+-). Důkladně smícháme ingredience na zálivku (ocet, med, sůl, pepř, limetka) a zalijeme jím připravený salát.",
+    "name": "Čočkový salát s avokádem a grapefruitem",
+    "nutrition": {
+      "carbohydrate": 37.9,
+      "energy": 465.6245,
+      "fat": 27.201,
+      "fiber": 6.899,
+      "protein": 17.899,
+      "sugar": 8.8985
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 39,
+    "ingredients": [
+      {
+        "ingredient": "Sušená rajčata Franz Josef",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Avokádo",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tuňák Rio Mare ve vlastní šťávě",
+        "quantity": 112,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chléb žitný",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Do misky si dáme 1 plechovku tuňáka (olej/vodu slijeme), nakrájené avokádo, sušená rajčata, ochutíme dle svých chutí (sůl, pepř, ..) a k tomu 1 plátek žitného chleba.",
+    "name": "Tuňák, avokádo, rajče, žitný chléb",
+    "nutrition": {
+      "carbohydrate": 40.2,
+      "energy": 366.38,
+      "fat": 19.0,
+      "fiber": 7.5,
+      "protein": 8.425,
+      "sugar": 5.325
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 40,
+    "ingredients": [
+      {
+        "ingredient": "Borůvky",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chia semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Řecký jogurt Milko 5%",
+        "quantity": 140,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Med",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Granola - Křupavé müsli BIO CountryLife",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Para ořechy",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Jogurt smícháme s medem a semínky. Ozdobíme ovocem, oříšky a zdravým müsli.",
+    "name": "Jogurt s oříšky, ovocem a semínky",
+    "nutrition": {
+      "carbohydrate": 37.4005,
+      "energy": 449.9555,
+      "fat": 23.1995,
+      "fiber": 7.1,
+      "protein": 17.6,
+      "sugar": 19.2005
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 41,
+    "ingredients": [
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sušená rajčata Franz Josef",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukuřice Bonduelle",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Salát ledový",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Bulgur pšeničný",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cottage",
+        "quantity": 75,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvařený bulgur (+-130g v hotovém stavu) smícháme s pokrájenou zeleninou, 1/2 cottage sýrem, semínky a dochutíme dle libosti kořením či bylinkami. Na konec zakápneme za studena lisovaným olejem.",
+    "name": "Bulgurový salát se zeleninou a cottage sýrem",
+    "nutrition": {
+      "carbohydrate": 40.8025,
+      "energy": 469.8085,
+      "fat": 25.2025,
+      "fiber": 8.399999999999999,
+      "protein": 18.0025,
+      "sugar": 8.502500000000001
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 42,
+    "ingredients": [
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cibule červená",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Seitan natural Sunfood",
+        "quantity": 130,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Zakysaná smetana 15 % Madeta",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Brambory, papriku a cibuli očistíme a nakrájíme na menší kousky. Zeleninu zakápneme olivovým olejem a ochutíme dle svých chutí. Seitan nakrájíme na asi 1 cm silné plátky a též dochutíme dle svých chutí. Oboje grilujeme nebo pečeme v troubě, zelenina potřebuje více času, seitan méně. K tomu 1/4 zakysané smetany.",
+    "name": "Grilovaný seitan s pečenou zeleninou",
+    "nutrition": {
+      "carbohydrate": 39.5,
+      "energy": 475.626,
+      "fat": 19.799,
+      "fiber": 5.801,
+      "protein": 31.199,
+      "sugar": 10.5
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 43,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cheddar Président",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Plátek kváskového chleba potřeme lučinou, obložíme plátkem chedaru, na kokosovém oleji osmahneme volské oko, položíme na chleba. K tomu červená paprika.",
+    "name": "Kváskový chléb s volským okem",
+    "nutrition": {
+      "carbohydrate": 44.919500000000006,
+      "energy": 482.1865000000001,
+      "fat": 24.5815,
+      "fiber": 10.899999999999999,
+      "protein": 21.798,
+      "sugar": 6.5809999999999995
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 44,
+    "ingredients": [
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajče",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Toustový chléb cereální",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Bazalka čerstvá",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mozzarella Galbani",
+        "quantity": 125,
+        "unit": "g"
+      }
+    ],
+    "instructions": "2 ks rajčata a mozzarellu nakrájíme na tenké plátky, zakápneme olivovým olejem a posypeme bazalkou. K tomu přikusujeme 1 ks opečený toustový chléb.",
+    "name": "Caprese s toustovým chlebem",
+    "nutrition": {
+      "carbohydrate": 18.700000000000003,
+      "energy": 475.59000000000003,
+      "fat": 32.5,
+      "fiber": 5.6000000000000005,
+      "protein": 25.499999999999996,
+      "sugar": 7.8999999999999995
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 45,
+    "ingredients": [
+      {
+        "ingredient": "Zakysaná smetana 15 % Kunín",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Česnek",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Červená řepa předvařená",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Balkánský sýr, Madeta",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Knäckebrot žitný Racio",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Vařenou červenou řepu nakrájíme na kostičky, smícháme s nakrájeným balkánským sárem a1/4 zakysané smetany. Můžeme přidat česnek. Dochutíme dle svých vlastních chutí a přikusujeme 2 ks knäckebrot.",
+    "name": "Červená řepa s balkánským sýrem a zakysanou smetanou",
+    "nutrition": {
+      "carbohydrate": 32.5985,
+      "energy": 471.84000000000003,
+      "fat": 29.400000000000002,
+      "fiber": 3.6000000000000005,
+      "protein": 15.3,
+      "sugar": 14.8985
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 46,
+    "ingredients": [
+      {
+        "ingredient": "Cibule",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Basmati ryze",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hovezi mlete maso",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jarní cibulka",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tortila celozrnna",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajcatove pyre",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "koriandr cerstvy",
+        "quantity": 6,
+        "unit": "g"
+      },
+      {
+        "ingredient": "barbecue omacka",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olivovy olej",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cervena paprika",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukurice Bounuelle",
+        "quantity": 30,
+        "unit": "g"
+      }
+    ],
+    "instructions": "",
+    "name": "Buritto",
+    "nutrition": {
+      "carbohydrate": 0.0,
+      "energy": 511.99719999999996,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "protein": 0.0,
+      "sugar": 0.0
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 47,
+    "ingredients": [
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tuňák Rio Mare ve vlastní šťávě",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jarní cibulka",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mascarpone",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sušená rajčata",
+        "quantity": 8,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kyslá smotana",
+        "quantity": 12,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika bílá",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "",
+    "name": "Tuňáková pomazánka s žitným chlebem",
+    "nutrition": {
+      "carbohydrate": 30.102,
+      "energy": 138.0,
+      "fat": 1.098,
+      "fiber": 4.2,
+      "protein": 5.3999999999999995,
+      "sugar": 0.49799999999999994
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 48,
+    "ingredients": [
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vídeňské párky 80 % K-Cllassic",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hořčice dijonská",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Pohanky kroupa",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "",
+    "name": "Pohanka s kysaným zelím, tempehem a tahini",
+    "nutrition": {
+      "carbohydrate": 35.685,
+      "energy": 466.12399999999997,
+      "fat": 26.515,
+      "fiber": 9.5,
+      "protein": 21.401,
+      "sugar": 7.416
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 49,
+    "ingredients": [
+      {
+        "ingredient": "Cibule",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vepřová kýta",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Anglická slanina 85 % Česká chuť",
+        "quantity": 34,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na plech rozprostřeme alobal, vyskládáme na plech (alobal) nakrájené brambory na tenké plátky a vrstvíme maso též nakrájené na plátky, dále přidáme nakrájenou anglickou slaninu (2 ks) a papriku. Nakonec navrstvíme hodně cibule, posypeme grilovacím kořením, zakryjeme alobalem a pečeme na 200°C asi 60 minut.",
+    "name": "Vepřové ražniči s bramborami",
+    "nutrition": {
+      "carbohydrate": 24.5012,
+      "energy": 461.93960000000004,
+      "fat": 28.299599999999998,
+      "fiber": 5.0986,
+      "protein": 23.0992,
+      "sugar": 4.0986
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 50,
+    "ingredients": [
+      {
+        "ingredient": "Kefírové mléko bílé 1,5% Kunín",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Dušená šunka vepřová 96% Dulano",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mrkev",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Madeland light 30%, Madeta",
+        "quantity": 17,
+        "unit": "g"
+      }
+    ],
+    "instructions": "1 plátek kváskového chleba potřeme Lučinou, obložíme 2 ks plátky vysokoprocentní šunky, 1 plátkem sýru. K tomu 1ks mrkev a připíjíme 300 ml kefíru.",
+    "name": "Kváskový chléb se šunkou a sýrem",
+    "nutrition": {
+      "carbohydrate": 53.3196,
+      "energy": 457.16069999999996,
+      "fat": 14.881799999999998,
+      "fiber": 8.899999999999999,
+      "protein": 30.5,
+      "sugar": 16.9816
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 51,
+    "ingredients": [
+      {
+        "ingredient": "Polníček",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Quinoa",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brokolice",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Žampióny",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ghí - přepuštěné máslo",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Halloumi sýr",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Dýňová semínka",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Quinoa uvedena v syrovém stavu (v hotovém +- 90g). Brokolici můžeme dát na 5 minut vařit. Na ghí (nebo kokosovém oleji) osmahneme nakrájené žampiony, tak stejně osmahneme na plátky nakrájený Halloumi sýr (můžeme na jedné pánvi). Na talíři vše buď smícháme nebo vyskládáme vedle sebe, to už záleží na tobě. Na konec přidáme hrst polníčku či jiné listové zeleniny a posypeme semínky.",
+    "name": "Quinoa salát s halloumi sýrem",
+    "nutrition": {
+      "carbohydrate": 27.200000000000003,
+      "energy": 478.2,
+      "fat": 32.3995,
+      "fiber": 5.199999999999999,
+      "protein": 23.299999999999997,
+      "sugar": 2.1995
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 52,
+    "ingredients": [
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Basmati rýže Vitana",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukuřice Bonduelle",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tofu natural",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Pórek",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Tofu nakrájíme na kostičky a osmahneme na sucho na pánvi. Rýže je uvedena v syrovém stavu, v hotovém potom +- 110g. Talíř doplníme dále o kukuřici, nakrájený pórek (od oka) a semínka. Ochutíme dle svých chutí.",
+    "name": "Tofu s rýží a kukuřicí",
+    "nutrition": {
+      "carbohydrate": 39.400000000000006,
+      "energy": 467.98600000000005,
+      "fat": 20.599,
+      "fiber": 4.899,
+      "protein": 30.601,
+      "sugar": 6.8
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 53,
+    "ingredients": [
+      {
+        "ingredient": "Chia semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mandlové mléko DM Bio",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "BIO kakao hořké",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tvaroh polotučný průměr",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Granola - Křupavé müsli BIO CountryLife",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kiwi",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Do misky si dáme celý tvaroh, mléko (může být živočišné!), semínka, kakao a smícháme. Ozdobíme musli a ovocem.",
+    "name": "Polotučný tvaroh s kakaem a mandlovým mlékem",
+    "nutrition": {
+      "carbohydrate": 37.1,
+      "energy": 476.785,
+      "fat": 17.0,
+      "fiber": 5.300000000000001,
+      "protein": 30.3,
+      "sugar": 21.7
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 54,
+    "ingredients": [
+      {
+        "ingredient": "Ořechy vlašské",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Těstoviny Panzani",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Polníček",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tuňák Rio Mare ve vlastní šťávě",
+        "quantity": 112,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajčata Cherry",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej lněný Franz Josef",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Těstoviny v hotovém +- 85g. Šťávu z tuňáka slejeme a vše smícháme dohromady - hrst polníčku či jiné listové zeleniny, rajčata, oříšky, semínka a těstoviny. Na konec zakápneme za studena lisovaným olejem. Ochutíme dle svých chutí.",
+    "name": "Těstovinový salát s tuňákem",
+    "nutrition": {
+      "carbohydrate": 30.5,
+      "energy": 345.541,
+      "fat": 20.94,
+      "fiber": 4.601,
+      "protein": 8.68,
+      "sugar": 5.041
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 55,
+    "ingredients": [
+      {
+        "ingredient": "Rajčata Cherry",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Parmezán",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Gnocchi bramborové noky Tesco",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Bazalkové pesto Panzani",
+        "quantity": 70,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvaříme gnochi, na pánvi mezitím ohřejeme bazalkové pesto a spolu s ním také mírně podusíme cherry rajčátka, uvařené gnochi k němu přidáme, zamícháme a na talíři posypeme parmazánem.",
+    "name": "Gnochi s bazalkovým pestem a parmazánem",
+    "nutrition": {
+      "carbohydrate": 38.999,
+      "energy": 465.695,
+      "fat": 27.801,
+      "fiber": 4.103,
+      "protein": 13.402,
+      "sugar": 4.102
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 56,
+    "ingredients": [
+      {
+        "ingredient": "Jablko",
+        "quantity": 75,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 110,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Špenát",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chléb žitný",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na kokosovém oleji osmahneme 2 míchaná vejce, přidáme na pánev hrst baby špenátu - vše mícháme dohromady. K tomu 1 plátek žitného chleba (může být váš domácí) potřený lučinou + přikusujeme 1/2 jablko.",
+    "name": "Míchaná vajíčka s baby špenátem a žitným chlebem",
+    "nutrition": {
+      "carbohydrate": 36.1035,
+      "energy": 482.23049999999995,
+      "fat": 27.8,
+      "fiber": 7.9025,
+      "protein": 20.397,
+      "sugar": 9.901499999999999
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 57,
+    "ingredients": [
+      {
+        "ingredient": "Česnek",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hovězí svíčková",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sádlo vepřové",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Fazolka",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Na pánvi s rozehřátým sádlem na prudko opečeš maso a poté jej dáš spolu s bramborami do trouby. Brambory si včetně slupky jen omyješ, nakrájíš a dáš na sucho vedle masa. Na pánvi po mase poté osmahneš fazolky s česnekem - 1 stroužek.",
+    "name": "Hovězí steak s fazolkami a americkými bramborami",
+    "nutrition": {
+      "carbohydrate": 34.55,
+      "energy": 464.985,
+      "fat": 20.7,
+      "fiber": 5.2,
+      "protein": 34.0,
+      "sugar": 1.85
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 58,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 110,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Špenát",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kozí sýr Milbona",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rukola",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Ředkvičky",
+        "quantity": 30,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Vajíčka (2) rozmixujeme spolu s cca hrstí špenátu, přidáme sůl a pepř. Smažíme na kokosovém oleji. Hotovou omeletu naplníme kozím sýrem, pokrájenými ředkvičkami a rukolou.",
+    "name": "Omeleta se špenátem a kozím sýrem",
+    "nutrition": {
+      "carbohydrate": 4.002,
+      "energy": 467.804,
+      "fat": 38.201,
+      "fiber": 1.701,
+      "protein": 27.997000000000003,
+      "sugar": 1.099
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 59,
+    "ingredients": [
+      {
+        "ingredient": "Kefírové mléko bílé 1,5% Kunín",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Dušená šunka vepřová 96% Dulano",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Madeland light 30%, Madeta",
+        "quantity": 17,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Toustový chléb cereální",
+        "quantity": 40,
+        "unit": "g"
+      }
+    ],
+    "instructions": "2 ks toustový chléb (=1 zapečený toust), potřeme lučinou, do toustu: 1 plátek sýr, 2 plátky vysokoprocentní šunky a zapečeme. K tomu 1 červená paprika (+-) a kefírové mléko.",
+    "name": "Tousty",
+    "nutrition": {
+      "carbohydrate": 33.8006,
+      "energy": 455.1607,
+      "fat": 20.600800000000003,
+      "fiber": 6.800000000000001,
+      "protein": 30.2,
+      "sugar": 15.6006
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 60,
+    "ingredients": [
+      {
+        "ingredient": "Avokádo",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Med",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vejce na tvrdo",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Čočka červená Lagris",
+        "quantity": 35,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Grapefruity",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Salát hlávkový",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Vinný ocet",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Avokádo nakrájíme na kostičky, grapefruit zbavíme slupky vč. vnitřních hořkých blanek a zbylou vnitřní dužinu nakrájíme. 1 ks vejce vařené můžeme též nakrájet nebo rozkrojit na půl a na konec na salát položit. Hlávkový salát natrháme a vše vložíme do mísy s vychladlou čočkou (v hotovém 100 g+-). Důkladně smícháme ingredience na zálivku (ocet, med, sůl, pepř, limetka) a zalijeme jím připravený salát.",
+    "name": "Čočkový salát s avokádem a grapefruitem",
+    "nutrition": {
+      "carbohydrate": 37.9,
+      "energy": 465.6245,
+      "fat": 27.201,
+      "fiber": 6.899,
+      "protein": 17.899,
+      "sugar": 8.8985
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 61,
+    "ingredients": [
+      {
+        "ingredient": "Sušená rajčata Franz Josef",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Avokádo",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tuňák Rio Mare ve vlastní šťávě",
+        "quantity": 112,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chléb žitný",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Do misky si dáme 1 plechovku tuňáka (olej/vodu slijeme), nakrájené avokádo, sušená rajčata, ochutíme dle svých chutí (sůl, pepř, ..) a k tomu 1 plátek žitného chleba.",
+    "name": "Tuňák, avokádo, rajče, žitný chléb",
+    "nutrition": {
+      "carbohydrate": 40.2,
+      "energy": 366.38,
+      "fat": 19.0,
+      "fiber": 7.5,
+      "protein": 8.425,
+      "sugar": 5.325
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 62,
+    "ingredients": [
+      {
+        "ingredient": "Borůvky",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Chia semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Řecký jogurt Milko 5%",
+        "quantity": 140,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Med",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Granola - Křupavé müsli BIO CountryLife",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Para ořechy",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Jogurt smícháme s medem a semínky. Ozdobíme ovocem, oříšky a zdravým müsli.",
+    "name": "Jogurt s oříšky, ovocem a semínky",
+    "nutrition": {
+      "carbohydrate": 37.4005,
+      "energy": 449.9555,
+      "fat": 23.1995,
+      "fiber": 7.1,
+      "protein": 17.6,
+      "sugar": 19.2005
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 63,
+    "ingredients": [
+      {
+        "ingredient": "Slunečnicová semínka",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sušená rajčata Franz Josef",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukuřice Bonduelle",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Salát ledový",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Bulgur pšeničný",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cottage",
+        "quantity": 75,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Uvařený bulgur (+-130g v hotovém stavu) smícháme s pokrájenou zeleninou, 1/2 cottage sýrem, semínky a dochutíme dle libosti kořením či bylinkami. Na konec zakápneme za studena lisovaným olejem.",
+    "name": "Bulgurový salát se zeleninou a cottage sýrem",
+    "nutrition": {
+      "carbohydrate": 40.8025,
+      "energy": 469.8085,
+      "fat": 25.2025,
+      "fiber": 8.399999999999999,
+      "protein": 18.0025,
+      "sugar": 8.502500000000001
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 64,
+    "ingredients": [
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cibule červená",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Brambory",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Seitan natural Sunfood",
+        "quantity": 130,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Zakysaná smetana 15 % Madeta",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Brambory, papriku a cibuli očistíme a nakrájíme na menší kousky. Zeleninu zakápneme olivovým olejem a ochutíme dle svých chutí. Seitan nakrájíme na asi 1 cm silné plátky a též dochutíme dle svých chutí. Oboje grilujeme nebo pečeme v troubě, zelenina potřebuje více času, seitan méně. K tomu 1/4 zakysané smetany.",
+    "name": "Grilovaný seitan s pečenou zeleninou",
+    "nutrition": {
+      "carbohydrate": 39.5,
+      "energy": 475.626,
+      "fat": 19.799,
+      "fiber": 5.801,
+      "protein": 31.199,
+      "sugar": 10.5
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 65,
+    "ingredients": [
+      {
+        "ingredient": "Vejce slepičí M 55g/ks",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika červená",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kokosový olej",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Lučina",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cheddar Président",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Plátek kváskového chleba potřeme lučinou, obložíme plátkem chedaru, na kokosovém oleji osmahneme volské oko, položíme na chleba. K tomu červená paprika.",
+    "name": "Kváskový chléb s volským okem",
+    "nutrition": {
+      "carbohydrate": 44.919500000000006,
+      "energy": 482.1865000000001,
+      "fat": 24.5815,
+      "fiber": 10.899999999999999,
+      "protein": 21.798,
+      "sugar": 6.5809999999999995
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 66,
+    "ingredients": [
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajče",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Toustový chléb cereální",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Bazalka čerstvá",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mozzarella Galbani",
+        "quantity": 125,
+        "unit": "g"
+      }
+    ],
+    "instructions": "2 ks rajčata a mozzarellu nakrájíme na tenké plátky, zakápneme olivovým olejem a posypeme bazalkou. K tomu přikusujeme 1 ks opečený toustový chléb.",
+    "name": "Caprese s toustovým chlebem",
+    "nutrition": {
+      "carbohydrate": 18.700000000000003,
+      "energy": 475.59000000000003,
+      "fat": 32.5,
+      "fiber": 5.6000000000000005,
+      "protein": 25.499999999999996,
+      "sugar": 7.8999999999999995
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 67,
+    "ingredients": [
+      {
+        "ingredient": "Zakysaná smetana 15 % Kunín",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Česnek",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olej olivový extra panenský",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Červená řepa předvařená",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Balkánský sýr, Madeta",
+        "quantity": 55,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Knäckebrot žitný Racio",
+        "quantity": 20,
+        "unit": "g"
+      }
+    ],
+    "instructions": "Vařenou červenou řepu nakrájíme na kostičky, smícháme s nakrájeným balkánským sárem a1/4 zakysané smetany. Můžeme přidat česnek. Dochutíme dle svých vlastních chutí a přikusujeme 2 ks knäckebrot.",
+    "name": "Červená řepa s balkánským sýrem a zakysanou smetanou",
+    "nutrition": {
+      "carbohydrate": 32.5985,
+      "energy": 471.84000000000003,
+      "fat": 29.400000000000002,
+      "fiber": 3.6000000000000005,
+      "protein": 15.3,
+      "sugar": 14.8985
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 68,
+    "ingredients": [
+      {
+        "ingredient": "Cibule",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Basmati ryze",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Hovezi mlete maso",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jarní cibulka",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tortila celozrnna",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Rajcatove pyre",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "ingredient": "koriandr cerstvy",
+        "quantity": 6,
+        "unit": "g"
+      },
+      {
+        "ingredient": "barbecue omacka",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Olivovy olej",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Cervena paprika",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kukurice Bounuelle",
+        "quantity": 30,
+        "unit": "g"
+      }
+    ],
+    "instructions": "",
+    "name": "Buritto",
+    "nutrition": {
+      "carbohydrate": 0.0,
+      "energy": 511.99719999999996,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "protein": 0.0,
+      "sugar": 0.0
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 69,
+    "ingredients": [
+      {
+        "ingredient": "Kváskový chléb",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Tuňák Rio Mare ve vlastní šťávě",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Jarní cibulka",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Mascarpone",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Sušená rajčata",
+        "quantity": 8,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Kyslá smotana",
+        "quantity": 12,
+        "unit": "g"
+      },
+      {
+        "ingredient": "Paprika bílá",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "",
+    "name": "Tuňáková pomazánka s žitným chlebem",
+    "nutrition": {
+      "carbohydrate": 30.102,
+      "energy": 138.0,
+      "fat": 1.098,
+      "fiber": 4.2,
+      "protein": 5.3999999999999995,
+      "sugar": 0.49799999999999994
+    },
+    "tags": []
+  },
+  {
+    "defaultPortions": 2,
+    "id": 70,
+    "ingredients": [
+      {
+        "ingredient": "Pohanky kroupa",
+        "quantity": 50,
+        "unit": "g"
+      }
+    ],
+    "instructions": "",
+    "name": "Pohanka s kysaným zelím, tempehem a tahini",
+    "nutrition": {
+      "carbohydrate": 0.0,
+      "energy": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "protein": 0.0,
+      "sugar": 0.0
+    },
+    "tags": []
+  }
+]

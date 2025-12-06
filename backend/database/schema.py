@@ -8,6 +8,8 @@ M_I_MAP_TABLE_NAME = "MealIngredientMap"
 NID = "nId"
 PLAN_TABLE_NAME = "Plan"
 PLAN_GROUP_TABLE_NAME = "PlanGroup"
+TAG_TABLE_NAME = "Tag"
+M_T_MAP_TABLE_NAME = "MealTagMap"
 
 Base = declarative_base()
 
@@ -27,7 +29,8 @@ class Meal(Base):
     nId = Column(Integer, primary_key=True)
     sName = Column(String)
     sType = Column(String)
-    sDescription = Column(String)
+    sInstructions = Column(String)
+    nDefaultPortions = Column(Integer, default=2)
     ingredients = relationship(M_I_MAP_TABLE_NAME)
     tags = relationship(M_T_MAP_TABLE_NAME)
     
@@ -79,8 +82,6 @@ class PlanGroup(Base):
     # group = relationship(PLAN_GROUP_TABLE_NAME)
     # nOrder = Column(Integer, nullable=False, unique=True)
 
-TAG_TABLE_NAME = "Tag"
-M_T_MAP_TABLE_NAME = "MealTagMap"
 
 class MealTagMap(Base):
     __tablename__ = M_T_MAP_TABLE_NAME
