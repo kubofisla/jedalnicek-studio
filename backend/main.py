@@ -42,4 +42,7 @@ def create_app(test_config=None):
     import user_data
     app.register_blueprint(user_data.bp)
 
+    import ingredients
+    app.register_blueprint(ingredients.bp)
+
     return app
