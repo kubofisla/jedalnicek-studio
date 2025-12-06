@@ -40,7 +40,7 @@ def recipe_index():
                     'energy': 0,
                     'fat': 0,
                     'protein': 0,
-                    'carbohydrate': 0,
+                    'carbs': 0,
                     'sugar': 0,
                     'fiber': 0
                 }
@@ -54,7 +54,7 @@ def recipe_index():
         if row[7] is not None: recipes[id]['nutrition']['energy'] += row[7] * ratio
         if row[8] is not None: recipes[id]['nutrition']['fat'] += row[8] * ratio
         if row[9] is not None: recipes[id]['nutrition']['protein'] += row[9] * ratio
-        if row[10] is not None: recipes[id]['nutrition']['carbohydrate'] += row[10] * ratio
+        if row[10] is not None: recipes[id]['nutrition']['carbs'] += row[10] * ratio
         if row[11] is not None: recipes[id]['nutrition']['sugar'] += row[11] * ratio
         if row[12] is not None: recipes[id]['nutrition']['fiber'] += row[12] * ratio
 

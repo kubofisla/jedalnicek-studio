@@ -8,7 +8,7 @@ def test_get_ingredients(client, app):
         # Clear existing ingredients
         session.query(Ingredient).delete()
         
-        i1 = Ingredient(sName="Test Ing 1", nEnergy=100)
+        i1 = Ingredient(sName="Test Ing 1", nEnergy=100, nCarbohydrate=50)
         session.add(i1)
         session.commit()
 
@@ -18,12 +18,14 @@ def test_get_ingredients(client, app):
     assert len(data) == 1
     assert data[0]['name'] == "Test Ing 1"
     assert data[0]['energy'] == 100.0
+    assert data[0]['carbs'] == 50.0  # Verify 'carbs' usage
 
 def test_create_ingredient(client, app):
     payload = {
         "name": "New Ingredient",
         "energy": 200,
-        "fat": 10.5
+        "fat": 10.5,
+        "carbs": 30
     }
     
     response = client.post('/api/ingredients', json=payload)
@@ -40,6 +42,7 @@ def test_create_ingredient(client, app):
         assert ing.sName == "New Ingredient"
         assert ing.nEnergy == 200.0
         assert ing.nFat == 10.5
+        assert ing.nCarbohydrate == 30.0
 
 def test_create_ingredient_validation(client):
     payload = {
