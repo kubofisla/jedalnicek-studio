@@ -5,3 +5,4 @@ node_modules/
 backend/instance/
 public/
 /sqlite_main.db
+backend/sqlite_main.db

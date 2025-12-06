@@ -4,7 +4,8 @@ from flask import (
 from database.db_util import get_db
 from database.schema import User, UserSettings, UserInventory, UserPlan
 from sqlalchemy.orm import Session
-from sqlalchemy import text
+from sqlalchemy import text, or_
+from datetime import datetime, timedelta
 
 bp = Blueprint('user_data', __name__)
 
@@ -81,7 +82,9 @@ def user_data():
         return jsonify({'status': 'success'})
 
     elif request.method == 'GET':
-        month = request.args.get('month') # YYYY-MM
+        date_param = request.args.get('date') # YYYY-MM-DD
+        days_param = request.args.get('days') # Integer
+        month_param = request.args.get('month') # Backward compatibility
         
         # Settings
         settings = session.query(UserSettings).filter(UserSettings.kUser == user_id).first()
@@ -105,10 +108,36 @@ def user_data():
 
         # Plan
         plan_query = session.query(UserPlan).filter(UserPlan.kUser == user_id)
-        if month:
-            # Filter by month string match or date range. Simple string match for YYYY-MM
-            # Assuming sDate is YYYY-MM-DD
-            plan_query = plan_query.filter(UserPlan.sDate.like(f"{month}%"))
+        
+        if date_param:
+            try:
+                start_date = datetime.strptime(date_param, '%Y-%m-%d')
+                month_str = start_date.strftime('%Y-%m')
+                
+                filter_conditions = [UserPlan.sDate.like(f"{month_str}%")]
+                
+                if days_param:
+                    try:
+                        days = int(days_param)
+                        end_date = start_date + timedelta(days=days-1)
+                        # We need to query range. Since SQLite stores strings, we can use string comparison for YYYY-MM-DD
+                        end_date_str = end_date.strftime('%Y-%m-%d')
+                        start_date_str = date_param
+                        
+                        filter_conditions.append(UserPlan.sDate.between(start_date_str, end_date_str))
+                    except ValueError:
+                        pass # Ignore invalid days
+                
+                plan_query = plan_query.filter(or_(*filter_conditions))
+                
+            except ValueError:
+                # If invalid date format, fallback or empty?
+                # Let's fallback to no filter or just ignore
+                pass
+        
+        elif month_param:
+            # Backward compatibility
+            plan_query = plan_query.filter(UserPlan.sDate.like(f"{month_param}%"))
         
         plan_items = plan_query.all()
         plan_list = []

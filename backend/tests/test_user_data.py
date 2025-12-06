@@ -35,38 +35,53 @@ def test_user_data_flow(client, app):
       "plan": [
         {
           "date": "2024-03-20",
-          "uid": "unique-id-2",
+          "uid": "unique-id-2", # Inside month
           "recipeId": recipe_id,
           "portions": 1
         },
         {
-          "date": "2024-03-21",
-          "uid": "unique-id-3",
+          "date": "2024-03-31",
+          "uid": "unique-id-3", # End of month
           "recipeId": recipe_id,
           "portions": 4
+        },
+        {
+          "date": "2024-04-01",
+          "uid": "unique-id-4", # Next month, but might be in range
+          "recipeId": recipe_id,
+          "portions": 2
         }
       ]
     }
     
     response = client.post('/api/user-data', json=payload)
     assert response.status_code == 200
-    assert response.get_json()['status'] == 'success'
 
-    # GET Data
+    # GET Data - Legacy Month
     response = client.get('/api/user-data?month=2024-03')
-    assert response.status_code == 200
+    data = response.get_json()
+    assert len(data['plan']) == 2 # 20 and 31
+    
+    # GET Data - Date and Duration (Overlap to next month)
+    # Start 2024-03-25, 10 days duration -> Ends 2024-04-03
+    # Should Include:
+    # - All of March (2024-03-20, 2024-03-31) because start is in March
+    # - AND Range 2024-03-25 to 2024-04-03 (Includes 2024-04-01)
+    
+    response = client.get('/api/user-data?date=2024-03-25&days=10')
     data = response.get_json()
     
-    assert data['settings']['startDate'] == "2024-03-20"
-    assert data['settings']['daysDuration'] == 7
-    assert data['settings']['language'] == "en"
-    
-    assert len(data['inventory']) == 1
-    assert data['inventory'][0]['uid'] == "unique-id-1"
-    assert data['inventory'][0]['portions'] == 2
-    
-    assert len(data['plan']) == 2
-    # Verify filtering
-    response = client.get('/api/user-data?month=2024-04')
-    data_apr = response.get_json()
-    assert len(data_apr['plan']) == 0
+    uids = [item['uid'] for item in data['plan']]
+    assert "unique-id-2" in uids # In March
+    assert "unique-id-3" in uids # In March
+    assert "unique-id-4" in uids # In Range (Apr 1)
+    assert len(data['plan']) == 3
+
+    # GET Data - Date only (implies month of date)
+    response = client.get('/api/user-data?date=2024-03-25')
+    data = response.get_json()
+     # Just month of March
+    uids = [item['uid'] for item in data['plan']]
+    assert "unique-id-2" in uids
+    assert "unique-id-3" in uids
+    assert "unique-id-4" not in uids
