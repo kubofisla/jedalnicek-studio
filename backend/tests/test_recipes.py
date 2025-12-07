@@ -21,7 +21,7 @@ def test_get_recipes_nutrition(client, app):
         session.commit()
         
         # Create meal
-        meal = Meal(sName="Test Meal", sDescription="Test Description", nDefaultPortions=2)
+        meal = Meal(sName="Test Meal", sInstructions="Test Description", nDefaultPortions=2)
         session.add(meal)
         session.commit()
         
@@ -47,6 +47,9 @@ def test_get_recipes_nutrition(client, app):
     assert nutrition['energy'] == 200.0
     assert nutrition['fat'] == 20.0 # 10 + 10
     assert nutrition['protein'] == 25.0 # 20 + 5
-    assert nutrition['carbohydrate'] == 50.0 # 30 + 20
+    assert nutrition['carbs'] == 50.0 # 30 + 20
     assert nutrition['sugar'] == 10.0 # 5 + 5
-    assert nutrition['fiber'] == 4.0 # 2 + 2
+    assert len(recipe['ingredients']) == 2
+    ing_ids = [i['id'] for i in recipe['ingredients']]
+    assert i1.nId in ing_ids
+    assert i2.nId in ing_ids

@@ -35,6 +35,7 @@ Retrieves a detailed list of all recipes.
     },
     "ingredients": [
       {
+        "id": 1,
         "ingredient": "Ingredient Name",
         "quantity": 100,
         "unit": "g"
@@ -44,11 +45,33 @@ Retrieves a detailed list of all recipes.
 ]
 ```
 
-**Field Descriptions:**
+```
+
+#### POST `/api/recipes`
+Creates a new recipe.
+
+**Request Body:**
+```json
+{
+  "name": "New Recipe",
+  "instructions": "Mix ingredients...",
+  "defaultPortions": 4,
+  "tags": ["Dinner", "Healthy"],
+  "ingredients": [
+    {
+      "id": 1,
+      "quantity": 100,
+      "unit": "g"
+    }
+  ]
+}
+```
+
+**Field Descriptions (Common for GET/POST):**
 
 | Field | Type | Description |
 |---|---|---|
-| `id` | Integer | Unique identifier for the recipe. |
+| `id` | Integer | Unique identifier for the recipe (GET) or ingredient (POST). |
 | `name` | String | Name of the recipe. |
 | `instructions` | String | Step-by-step instructions. |
 | `defaultPortions` | Integer | Default number of portions the recipe produces. |
@@ -61,7 +84,8 @@ Retrieves a detailed list of all recipes.
 | `nutrition.sugar` | Float | Sugar in grams. |
 | `nutrition.fiber` | Float | Dietary fiber in grams. |
 | `ingredients` | Array<Object> | List of ingredients needed for the recipe. |
-| `ingredients[].ingredient` | String | Name of the ingredient. |
+| `ingredients[].ingredient` | String | Name of the ingredient (GET). |
+| `ingredients[].id` | Integer | ID of the ingredient (GET/POST). |
 | `ingredients[].quantity` | Float | Quantity required. |
 | `ingredients[].unit` | String | Unit of measurement (e.g., "g", "ml", "pcs"). |
 

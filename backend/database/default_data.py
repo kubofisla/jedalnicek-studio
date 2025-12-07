@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from database.schema import Meal, Ingredient, MealIngredientMap, Plan, PlanGroup, Tag, MealTagMap, User
+from database.schema import Meal, Ingredient, MealIngredientMap, Tag, MealTagMap, User
 
 def insertDefaultData(engine):
     with Session(engine) as session:
@@ -517,26 +517,7 @@ def insertDefaultData(engine):
         session.add_all(meals)
         session.commit()
 
-        planGroups = {
-            "Pondelok" : PlanGroup(sName = "Pondelok"),
-            "Utorok" : PlanGroup(sName = "Utorok"),
-            "Streda" : PlanGroup(sName = "Streda"),
-            "Stvrtok" : PlanGroup(sName = "Stvrtok"),
-            "Piatok" : PlanGroup(sName = "Piatok"),
-            "Sobota" : PlanGroup(sName = "Sobota"),
-            "Nedela" : PlanGroup(sName = "Nedela"),
-        }
 
-        session.add_all(planGroups.values())
-
-        planList = []
-        for group in planGroups.values():
-                planList.append(Plan(group = group, sName = "Raňajky"))
-                planList.append(Plan(group = group, sName = "Obed"))
-                planList.append(Plan(group = group, sName = "Večera"))
-
-        session.add_all(planList)
-        session.commit()
 
         # Add Tags
         tags = {
