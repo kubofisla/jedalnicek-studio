@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from database.schema import Meal, Ingredient, MealIngredientMap, Tag, MealTagMap, User
+from database.schema import Meal, Ingredient, MealIngredientMap, Tag, MealTagMap, User, UserSettings
 
 def insertDefaultData(engine):
     with Session(engine) as session:
@@ -547,5 +547,6 @@ def insertDefaultData(engine):
         # Add default User
         if not session.query(User).filter(User.sUsername == "default").first():
             default_user = User(sUsername="default")
+            default_user.settings = UserSettings(sLanguage="sk")
             session.add(default_user)
             session.commit()

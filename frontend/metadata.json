@@ -1,0 +1,5 @@
+{
+  "name": "Jedalnicek",
+  "description": "A modern, responsive meal planning application allowing users to browse recipes and schedule their weekly meals using local persistence.",
+  "requestFramePermissions": []
+}

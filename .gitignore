@@ -3,6 +3,8 @@ __pycache__/
 venv/
 node_modules/
 backend/instance/
+backend/sqlite_main.db
+backend/all_recipes.json
+frontend-legacy/
 public/
 /sqlite_main.db
-backend/sqlite_main.db

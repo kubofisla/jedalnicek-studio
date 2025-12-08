@@ -1,5 +1,5 @@
 from sqlalchemy import ForeignKey, Numeric, Column, Integer, String
-from sqlalchemy.orm import declarative_base, relationship
+from sqlalchemy.orm import declarative_base, relationship, backref
 
 # CONSTANTS
 MEAL_TABLE_NAME = "Meal"
@@ -92,6 +92,8 @@ class UserSettings(Base):
     sStartDate = Column(String)
     nDaysDuration = Column(Integer)
     sLanguage = Column(String)
+    
+    user = relationship("User", backref=backref("settings", uselist=False))
 
 class UserInventory(Base):
     __tablename__ = USER_INVENTORY_TABLE_NAME

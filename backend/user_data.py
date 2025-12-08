@@ -59,12 +59,23 @@ def user_data():
         # Plan
         if 'plan' in data:
             plan_data = data['plan']
-            # Upsert strategy usually better for plan, but "receive and persist payload" might imply state.
-            # However, plan is usually large. The request says "request will contain which month is requested... result will send all days in that month".
-            # But for POST, it sends a payload.
-            # Let's assume the payload contains the relevant plan items to save.
-            # We can checks if items exist by UID.
             
+            # 1. Collect incoming UIDs
+            incoming_uids = [item.get('uid') for item in plan_data if item.get('uid')]
+            
+            # 2. Delete items not in payload
+            if incoming_uids:
+                session.query(UserPlan).filter(
+                    UserPlan.kUser == user_id, 
+                    UserPlan.sUid.notin_(incoming_uids)
+                ).delete(synchronize_session=False)
+            else:
+                # If plan key exists but list is empty, user cleared plan?
+                # Or payload usually contains all. If incoming_uids empty but plan_data is list, delete all.
+                if isinstance(plan_data, list):
+                    session.query(UserPlan).filter(UserPlan.kUser == user_id).delete(synchronize_session=False)
+
+            # 3. Upsert items
             for item in plan_data:
                 uid = item.get('uid')
                 if not uid: continue

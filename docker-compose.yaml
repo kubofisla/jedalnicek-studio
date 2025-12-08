@@ -3,7 +3,16 @@ services:
     build: ./backend
     ports:
       - "5000:5000"
+    environment:
+      - FLASK_APP=main.py
+      - FLASK_DEBUG=1
+    volumes:
+      - ./backend/sqlite_main.db:/project/sqlite_main.db
+      - ./backend:/project
   frontend:
     build: ./frontend
     ports:
       - "3000:3000"
+    volumes:
+      - ./frontend:/frontend
+      - /frontend/node_modules

@@ -137,7 +137,7 @@ def recipe_index():
 
         recipes[id]['ingredients'].append({
             'id': row[14],
-            'ingredient' : row[4],
+            'name' : row[4],
             'quantity' : row[5],
             'unit' : row[6],
         })
