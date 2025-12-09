@@ -16,6 +16,17 @@ To deploy application (currently just in DEVELOPMENT mode) run following command
 docker compose up
 ```
 
+## Environment Configuration
+You can configure the ports used by docker compose by creating a `.env` file in the root directory.
+This file is git ignored so you can have your own local configuration.
+
+Example `.env` file content with default values:
+```env
+BACKEND_PORT=5000
+FRONTEND_PORT=3000
+```
+
+
 ## From scratach
 Install python and pip: https://packaging.python.org/en/latest/tutorials/installing-packages/
 
