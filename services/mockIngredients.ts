@@ -1,0 +1,38 @@
+import { IngredientSuggestion } from '../types';
+
+// Mock database of ingredients with nutrition per 100g
+export const MOCK_INGREDIENTS: IngredientSuggestion[] = [
+  { id: "i1", name: "Rýže jasmínová", energy: 348, protein: 7, carbs: 78, fat: 0.9, fiber: 0.8, sugar: 0.1 },
+  { id: "i2", name: "Basmati rýže", energy: 350, protein: 8, carbs: 77, fat: 0.5, fiber: 1, sugar: 0.1 },
+  { id: "i3", name: "Kuřecí prsa", energy: 110, protein: 23, carbs: 0, fat: 1.2, fiber: 0, sugar: 0 },
+  { id: "i4", name: "Hovězí maso mleté", energy: 250, protein: 26, carbs: 0, fat: 17, fiber: 0, sugar: 0 },
+  { id: "i5", name: "Losos obecný", energy: 208, protein: 20, carbs: 0, fat: 13, fiber: 0, sugar: 0 },
+  { id: "i6", name: "Tofu natural", energy: 125, protein: 12, carbs: 2, fat: 7.5, fiber: 1, sugar: 0.5 },
+  { id: "i7", name: "Vejce slepičí", energy: 140, protein: 12, carbs: 1, fat: 10, fiber: 0, sugar: 0.5 },
+  { id: "i8", name: "Banány", energy: 90, protein: 1, carbs: 23, fat: 0.3, fiber: 2.6, sugar: 12 },
+  { id: "i9", name: "Jablko", energy: 52, protein: 0.3, carbs: 14, fat: 0.2, fiber: 2.4, sugar: 10 },
+  { id: "i10", name: "Borůvky", energy: 57, protein: 0.7, carbs: 14, fat: 0.3, fiber: 2.4, sugar: 10 },
+  { id: "i11", name: "Mandle", energy: 575, protein: 21, carbs: 22, fat: 49, fiber: 12, sugar: 4 },
+  { id: "i12", name: "Ořechy vlašské", energy: 654, protein: 15, carbs: 14, fat: 65, fiber: 7, sugar: 2.6 },
+  { id: "i13", name: "Chia semínka", energy: 486, protein: 17, carbs: 42, fat: 31, fiber: 34, sugar: 0 },
+  { id: "i14", name: "Ovesné vločky", energy: 389, protein: 16.9, carbs: 66, fat: 6.9, fiber: 10.6, sugar: 0 },
+  { id: "i15", name: "Kefírové mléko", energy: 45, protein: 3.4, carbs: 4, fat: 1.5, fiber: 0, sugar: 4 },
+  { id: "i16", name: "Řecký jogurt", energy: 59, protein: 10, carbs: 3.6, fat: 0.4, fiber: 0, sugar: 3.2 },
+  { id: "i17", name: "Tvaroh polotučný", energy: 105, protein: 12, carbs: 4, fat: 4, fiber: 0, sugar: 3.5 },
+  { id: "i18", name: "Mozzarella light", energy: 160, protein: 20, carbs: 1, fat: 9, fiber: 0, sugar: 1 },
+  { id: "i19", name: "Eidam 30%", energy: 260, protein: 27, carbs: 1.5, fat: 16, fiber: 0, sugar: 0 },
+  { id: "i20", name: "Parmezán", energy: 431, protein: 38, carbs: 4, fat: 29, fiber: 0, sugar: 0 },
+  { id: "i21", name: "Mrkev", energy: 41, protein: 0.9, carbs: 10, fat: 0.2, fiber: 2.8, sugar: 4.7 },
+  { id: "i22", name: "Brambory", energy: 77, protein: 2, carbs: 17, fat: 0.1, fiber: 2.2, sugar: 0.8 },
+  { id: "i23", name: "Batáty", energy: 86, protein: 1.6, carbs: 20, fat: 0.1, fiber: 3, sugar: 4.2 },
+  { id: "i24", name: "Cibule", energy: 40, protein: 1.1, carbs: 9, fat: 0.1, fiber: 1.7, sugar: 4.2 },
+  { id: "i25", name: "Paprika červená", energy: 31, protein: 1, carbs: 6, fat: 0.3, fiber: 2.1, sugar: 4.2 },
+  { id: "i26", name: "Rajčata Cherry", energy: 18, protein: 0.9, carbs: 3.9, fat: 0.2, fiber: 1.2, sugar: 2.6 },
+  { id: "i27", name: "Špenát", energy: 23, protein: 2.9, carbs: 3.6, fat: 0.4, fiber: 2.2, sugar: 0.4 },
+  { id: "i28", name: "Avokádo", energy: 160, protein: 2, carbs: 9, fat: 15, fiber: 7, sugar: 0.7 },
+  { id: "i29", name: "Olivový olej", energy: 884, protein: 0, carbs: 0, fat: 100, fiber: 0, sugar: 0 },
+  { id: "i30", name: "Máslo", energy: 717, protein: 0.8, carbs: 0.1, fat: 81, fiber: 0, sugar: 0.1 },
+  { id: "i31", name: "Med", energy: 304, protein: 0.3, carbs: 82, fat: 0, fiber: 0, sugar: 82 },
+  { id: "i32", name: "Těstoviny", energy: 360, protein: 12, carbs: 75, fat: 1.5, fiber: 3, sugar: 2 },
+  { id: "i33", name: "Kváskový chléb", energy: 240, protein: 9, carbs: 48, fat: 1.2, fiber: 6, sugar: 1 }
+];
